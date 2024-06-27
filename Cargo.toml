@@ -1,0 +1,10 @@
+[package]
+name = "reassignment_spectrum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+piet-common = {version = "0.6.2", features = ["png"]}
+rand = "0.8.5"
+realfft = "3.3.0"
+rustfft = "6.2.0"
